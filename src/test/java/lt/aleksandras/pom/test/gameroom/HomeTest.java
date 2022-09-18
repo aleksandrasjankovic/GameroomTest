@@ -50,7 +50,7 @@ public class HomeTest extends TestBase {
     }
 
     @Test
-    public void testSortingMenu(){
+    public void testSortingMenu(){  //Found bug in website. This test should fail.
         String expectedResult;
         String actualResult;
 
