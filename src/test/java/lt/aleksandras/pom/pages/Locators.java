@@ -15,7 +15,8 @@ public class Locators {
 
             public static By genreFilterDropdown = By.xpath("//*[@id='selector-f8']");
 
-            public static By searchResultList = By.xpath("//*[@class='product_list products-block grid  af-product-list style1 row']//li");
+            public static By searchResultList = By.xpath(
+                    "//*[@class='product_list products-block grid  af-product-list style1 row']//li");
 
             public static By searchBar = By.xpath("//*[@id='pts_search_query_top']");
 
@@ -23,7 +24,8 @@ public class Locators {
 
             public static By searchResultCountText = By.xpath("//*[@class='heading-counter']");
 
-            public static By buttonSearch = By.xpath("//*[@class='btn btn-default btn-primary button-search']");
+            public static By buttonSearch = By.xpath(
+                    "//*[@class='btn btn-default btn-primary button-search']");
 
 
         }
@@ -39,11 +41,13 @@ public class Locators {
         }
 
         public static class Producers {
-            public static By activisionProducer = By.xpath("(//*[@class='btn btn-default button exclusive-medium'])[8]");
+            public static By activisionProducer = By.xpath(
+                    "(//*[@class='btn btn-default button exclusive-medium'])[8]");
 
-            public static By firstProducerProduct = By.xpath("//*[@class='product_list products-block grid  af-product-list style1']//li[1]//div[1]");
+            public static By firstProducerProduct = By.xpath(
+                    "//*[@class='product_list products-block grid " +
+                            " af-product-list style1']//li[1]//div[1]");
             public static By buttonClosePopup = By.xpath("//*[@class='cross']");
-
 
             public static By shoppingCartNumber = By.xpath("//*[@class='ajax_cart_quantity unvisible']");
 

@@ -30,6 +30,5 @@ public class Driver {
         options.addArguments("--force-device-scale-factor=0.5");
 //        options.addArguments("headless");
         return options;
-
     }
 }

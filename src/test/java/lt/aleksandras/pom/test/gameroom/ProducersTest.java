@@ -20,7 +20,6 @@ public class ProducersTest extends TestBase {
         String expectedResult = "1";
         String actualResult;
 
-
         ProducersPage.clickActivisionProducer();
         ProducersPage.sleep(2000);
         ProducersPage.clickFirstProducerProduct();
@@ -31,5 +30,4 @@ public class ProducersTest extends TestBase {
 
         Assert.assertEquals(actualResult, expectedResult);
     }
-
 }
