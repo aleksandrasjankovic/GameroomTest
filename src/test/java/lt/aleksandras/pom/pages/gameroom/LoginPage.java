@@ -10,6 +10,14 @@ public class LoginPage {
         Common.openUrl("https://gameroom.lt/lt/prisijungimas");
     }
 
+    public static void sleep(int millis) {
+        try {
+            Thread.sleep(millis);
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
+        }
+    }
+
     public static void clickButtonLogin() {
         Common.leftClick(Locators.Gameroom.Login.buttonLogin);
     }

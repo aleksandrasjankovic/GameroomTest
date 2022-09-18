@@ -22,6 +22,7 @@ public class LoginTest extends TestBase {
         LoginPage.enterEmailText("batonas@test.lt");
         LoginPage.enterPasswordText("kepalas123");
         LoginPage.clickButtonLogin();
+        LoginPage.sleep(2000);
 
         actualResult = LoginPage.readErrorLoginMessage();
 

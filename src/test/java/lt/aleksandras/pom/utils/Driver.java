@@ -27,7 +27,7 @@ public class Driver {
     private static ChromeOptions getDriverOptions() {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("window-size=2000,3000");
-        options.addArguments("--force-device-scale-factor=0.75");
+        options.addArguments("--force-device-scale-factor=0.5");
 //        options.addArguments("headless");
         return options;
 
